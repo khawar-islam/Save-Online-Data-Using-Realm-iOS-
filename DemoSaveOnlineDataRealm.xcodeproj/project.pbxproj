@@ -12,9 +12,15 @@
 		5211DF6B1FEEDA5B001B2EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5211DF691FEEDA5B001B2EFF /* Main.storyboard */; };
 		5211DF6D1FEEDA5B001B2EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5211DF6C1FEEDA5B001B2EFF /* Assets.xcassets */; };
 		5211DF701FEEDA5B001B2EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5211DF6E1FEEDA5B001B2EFF /* LaunchScreen.storyboard */; };
+		5211DF781FEEDD9E001B2EFF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211DF771FEEDD9E001B2EFF /* User.swift */; };
+		5211DF7B1FEEE8BB001B2EFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5211DF791FEEDFB8001B2EFF /* GoogleService-Info.plist */; };
+		5211DF7F1FEEF141001B2EFF /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211DF7E1FEEF141001B2EFF /* FriendList.swift */; };
+		5211DF811FEEF30C001B2EFF /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211DF801FEEF30C001B2EFF /* FriendTableViewCell.swift */; };
+		C333466675A248790AC30FCF /* Pods_DemoSaveOnlineDataRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA198702EDA9CFF97DC00B /* Pods_DemoSaveOnlineDataRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FB2D9A1E43CA203FF8995CA /* Pods-DemoSaveOnlineDataRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSaveOnlineDataRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSaveOnlineDataRealm/Pods-DemoSaveOnlineDataRealm.debug.xcconfig"; sourceTree = "<group>"; };
 		5211DF621FEEDA5B001B2EFF /* DemoSaveOnlineDataRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSaveOnlineDataRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5211DF651FEEDA5B001B2EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5211DF671FEEDA5B001B2EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		5211DF6C1FEEDA5B001B2EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5211DF6F1FEEDA5B001B2EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5211DF711FEEDA5B001B2EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5211DF771FEEDD9E001B2EFF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5211DF791FEEDFB8001B2EFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5211DF7E1FEEF141001B2EFF /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		5211DF801FEEF30C001B2EFF /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		907878279FC1E0D28F3F6113 /* Pods-DemoSaveOnlineDataRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSaveOnlineDataRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSaveOnlineDataRealm/Pods-DemoSaveOnlineDataRealm.release.xcconfig"; sourceTree = "<group>"; };
+		B5AA198702EDA9CFF97DC00B /* Pods_DemoSaveOnlineDataRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSaveOnlineDataRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C333466675A248790AC30FCF /* Pods_DemoSaveOnlineDataRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				5211DF641FEEDA5B001B2EFF /* DemoSaveOnlineDataRealm */,
 				5211DF631FEEDA5B001B2EFF /* Products */,
+				D0B7B9DD6277E1B9AEE1D6B1 /* Pods */,
+				B87C7C4D6E7580CE89CB132C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				5211DF651FEEDA5B001B2EFF /* AppDelegate.swift */,
 				5211DF671FEEDA5B001B2EFF /* ViewController.swift */,
+				5211DF791FEEDFB8001B2EFF /* GoogleService-Info.plist */,
 				5211DF691FEEDA5B001B2EFF /* Main.storyboard */,
 				5211DF6C1FEEDA5B001B2EFF /* Assets.xcassets */,
 				5211DF6E1FEEDA5B001B2EFF /* LaunchScreen.storyboard */,
 				5211DF711FEEDA5B001B2EFF /* Info.plist */,
+				5211DF771FEEDD9E001B2EFF /* User.swift */,
+				5211DF7E1FEEF141001B2EFF /* FriendList.swift */,
+				5211DF801FEEF30C001B2EFF /* FriendTableViewCell.swift */,
 			);
 			path = DemoSaveOnlineDataRealm;
+			sourceTree = "<group>";
+		};
+		B87C7C4D6E7580CE89CB132C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA198702EDA9CFF97DC00B /* Pods_DemoSaveOnlineDataRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B7B9DD6277E1B9AEE1D6B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB2D9A1E43CA203FF8995CA /* Pods-DemoSaveOnlineDataRealm.debug.xcconfig */,
+				907878279FC1E0D28F3F6113 /* Pods-DemoSaveOnlineDataRealm.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5211DF741FEEDA5B001B2EFF /* Build configuration list for PBXNativeTarget "DemoSaveOnlineDataRealm" */;
 			buildPhases = (
+				DC237CB5EDABBB24F456FF61 /* [CP] Check Pods Manifest.lock */,
 				5211DF5E1FEEDA5B001B2EFF /* Sources */,
 				5211DF5F1FEEDA5B001B2EFF /* Frameworks */,
 				5211DF601FEEDA5B001B2EFF /* Resources */,
+				A790E145625D097D46379290 /* [CP] Embed Pods Frameworks */,
+				7167336619AFB0676E2E8D42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,10 +165,73 @@
 				5211DF701FEEDA5B001B2EFF /* LaunchScreen.storyboard in Resources */,
 				5211DF6D1FEEDA5B001B2EFF /* Assets.xcassets in Resources */,
 				5211DF6B1FEEDA5B001B2EFF /* Main.storyboard in Resources */,
+				5211DF7B1FEEE8BB001B2EFF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7167336619AFB0676E2E8D42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoSaveOnlineDataRealm/Pods-DemoSaveOnlineDataRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A790E145625D097D46379290 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoSaveOnlineDataRealm/Pods-DemoSaveOnlineDataRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoSaveOnlineDataRealm/Pods-DemoSaveOnlineDataRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC237CB5EDABBB24F456FF61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoSaveOnlineDataRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5211DF5E1FEEDA5B001B2EFF /* Sources */ = {
@@ -138,6 +240,9 @@
 			files = (
 				5211DF681FEEDA5B001B2EFF /* ViewController.swift in Sources */,
 				5211DF661FEEDA5B001B2EFF /* AppDelegate.swift in Sources */,
+				5211DF811FEEF30C001B2EFF /* FriendTableViewCell.swift in Sources */,
+				5211DF781FEEDD9E001B2EFF /* User.swift in Sources */,
+				5211DF7F1FEEF141001B2EFF /* FriendList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +377,7 @@
 		};
 		5211DF751FEEDA5B001B2EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB2D9A1E43CA203FF8995CA /* Pods-DemoSaveOnlineDataRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +392,7 @@
 		};
 		5211DF761FEEDA5B001B2EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907878279FC1E0D28F3F6113 /* Pods-DemoSaveOnlineDataRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
